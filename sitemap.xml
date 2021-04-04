@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sultimer.gitee.io/blog/2021/04/04/docker/</loc>
+    
+    <lastmod>2021-04-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sultimer.gitee.io/blog/2021/04/03/deploy-hexo/</loc>
     
     <lastmod>2021-04-03</lastmod>
