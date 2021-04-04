@@ -3,11 +3,11 @@
   <title>Liantao&#39;s Wiki</title>
   
   
-  <link href="https://sultimer.gitee.io/blog/atom.xml" rel="self"/>
+  <link href="https://sultimer.github.io/atom.xml" rel="self"/>
   
-  <link href="https://sultimer.gitee.io/blog/"/>
+  <link href="https://sultimer.github.io/"/>
   <updated>2021-04-04T03:53:34.478Z</updated>
-  <id>https://sultimer.gitee.io/blog/</id>
+  <id>https://sultimer.github.io/</id>
   
   <author>
     <name>Liantao Song</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>docker</title>
-    <link href="https://sultimer.gitee.io/blog/2021/04/04/docker/"/>
-    <id>https://sultimer.gitee.io/blog/2021/04/04/docker/</id>
+    <link href="https://sultimer.github.io/2021/04/04/docker/"/>
+    <id>https://sultimer.github.io/2021/04/04/docker/</id>
     <published>2021-04-04T03:53:34.000Z</published>
     <updated>2021-04-04T03:53:34.478Z</updated>
     
@@ -42,8 +42,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://sultimer.gitee.io/blog/2021/04/03/hello-world/"/>
-    <id>https://sultimer.gitee.io/blog/2021/04/03/hello-world/</id>
+    <link href="https://sultimer.github.io/2021/04/03/hello-world/"/>
+    <id>https://sultimer.github.io/2021/04/03/hello-world/</id>
     <published>2021-04-03T15:52:24.069Z</published>
     <updated>2021-04-03T15:52:24.069Z</updated>
     
@@ -62,18 +62,18 @@
   
   <entry>
     <title>test</title>
-    <link href="https://sultimer.gitee.io/blog/2021/04/03/test/"/>
-    <id>https://sultimer.gitee.io/blog/2021/04/03/test/</id>
+    <link href="https://sultimer.github.io/2021/04/03/test/"/>
+    <id>https://sultimer.github.io/2021/04/03/test/</id>
     <published>2021-04-03T14:16:32.000Z</published>
     <updated>2021-04-03T17:33:03.876Z</updated>
     
-    <content type="html"><![CDATA[<p>this is a test</p><img src="/blog/2021/04/03/test/Screen.png" alt="Screen" style="zoom:25%;">]]></content>
+    <content type="html"><![CDATA[<p>this is a test</p><img src="/2021/04/03/test/Screen.png" alt="Screen" style="zoom:25%;">]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;this is a test&lt;/p&gt;
-&lt;img src=&quot;/blog/2021/04/03/test/Screen.png&quot; alt=&quot;Screen&quot; style=&quot;zoom:25%;&quot;&gt;
+&lt;img src=&quot;/2021/04/03/test/Screen.png&quot; alt=&quot;Screen&quot; style=&quot;zoom:25%;&quot;&gt;
 
 </summary>
       
@@ -85,8 +85,8 @@
   
   <entry>
     <title>deploy-hexo</title>
-    <link href="https://sultimer.gitee.io/blog/2021/04/03/deploy-hexo/"/>
-    <id>https://sultimer.gitee.io/blog/2021/04/03/deploy-hexo/</id>
+    <link href="https://sultimer.github.io/2021/04/03/deploy-hexo/"/>
+    <id>https://sultimer.github.io/2021/04/03/deploy-hexo/</id>
     <published>2021-04-03T05:39:02.000Z</published>
     <updated>2021-04-03T17:34:00.470Z</updated>
     
@@ -100,7 +100,7 @@
     
     
     
-    <category term="计算机" scheme="https://sultimer.gitee.io/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <category term="计算机" scheme="https://sultimer.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     
   </entry>

@@ -12,7 +12,7 @@
     <meta name="description" content="Hexo+gitee搭建博客1.搭建环境操作系统：macOS Big Sur，Version 11.2 芯片型号：Apple M1 2.搭建过程&#x2F;&#x2F;方便上传图片。 图片调整大小： 将_config文件中post_asset_folder: true  _config文件中（注意空格）： url: https:&#x2F;&#x2F;sultimer.gitee.io&#x2F;blog：是gitee生成的地址，每次上传以后都需">
 <meta property="og:type" content="article">
 <meta property="og:title" content="deploy-hexo">
-<meta property="og:url" content="https://sultimer.gitee.io/blog/2021/04/03/deploy-hexo/index.html">
+<meta property="og:url" content="https://sultimer.github.io/2021/04/03/deploy-hexo/index.html">
 <meta property="og:site_name" content="Liantao&#39;s Wiki">
 <meta property="og:description" content="Hexo+gitee搭建博客1.搭建环境操作系统：macOS Big Sur，Version 11.2 芯片型号：Apple M1 2.搭建过程&#x2F;&#x2F;方便上传图片。 图片调整大小： 将_config文件中post_asset_folder: true  _config文件中（注意空格）： url: https:&#x2F;&#x2F;sultimer.gitee.io&#x2F;blog：是gitee生成的地址，每次上传以后都需">
 <meta property="og:locale" content="en_US">
@@ -27,37 +27,37 @@
     
 
     
-        <link rel="icon" href="/blog/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
     
 
     
-<link rel="stylesheet" href="/blog/libs/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
 
     
-<link rel="stylesheet" href="/blog/libs/open-sans/styles.css">
+<link rel="stylesheet" href="/libs/open-sans/styles.css">
 
     
-<link rel="stylesheet" href="/blog/libs/source-code-pro/styles.css">
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
 
 
     
-<link rel="stylesheet" href="/blog/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
     
-<script src="/blog/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/libs/jquery/2.1.3/jquery.min.js"></script>
 
     
-<script src="/blog/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
-
-    
-    
-        
-<link rel="stylesheet" href="/blog/libs/lightgallery/css/lightgallery.min.css">
+<script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
 
     
     
         
-<link rel="stylesheet" href="/blog/libs/justified-gallery/justifiedGallery.min.css">
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
 
     
     
@@ -75,21 +75,21 @@
         <header id="header">
     <div id="header-main" class="header-inner">
         <div class="outer">
-            <a href="/blog/" id="logo">
+            <a href="/" id="logo">
                 <i class="logo"></i>
                 <span class="site-title">Liantao&#39;s Wiki</span>
             </a>
             <nav id="main-nav">
                 
-                    <a class="main-nav-link" href="/blog/">首页</a>
+                    <a class="main-nav-link" href="/">首页</a>
                 
-                    <a class="main-nav-link" href="/blog/archives">归档</a>
+                    <a class="main-nav-link" href="/archives">归档</a>
                 
-                    <a class="main-nav-link" href="/blog/categories">分类</a>
+                    <a class="main-nav-link" href="/categories">分类</a>
                 
-                    <a class="main-nav-link" href="/blog/tags">标签</a>
+                    <a class="main-nav-link" href="/tags">标签</a>
                 
-                    <a class="main-nav-link" href="/blog/about">关于</a>
+                    <a class="main-nav-link" href="/about">关于</a>
                 
             </nav>
             
@@ -121,14 +121,14 @@
             TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
-        ROOT_URL: '/blog/',
-        CONTENT_URL: '/blog/content.json',
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
     };
     window.INSIGHT_CONFIG = INSIGHT_CONFIG;
 })(window);
 </script>
 
-<script src="/blog/js/insight.js"></script>
+<script src="/js/insight.js"></script>
 
 
 </div>
@@ -138,15 +138,15 @@
         <table class="menu outer">
             <tr>
                 
-                    <td><a class="main-nav-link" href="/blog/">首页</a></td>
+                    <td><a class="main-nav-link" href="/">首页</a></td>
                 
-                    <td><a class="main-nav-link" href="/blog/archives">归档</a></td>
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
                 
-                    <td><a class="main-nav-link" href="/blog/categories">分类</a></td>
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
                 
-                    <td><a class="main-nav-link" href="/blog/tags">标签</a></td>
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
                 
-                    <td><a class="main-nav-link" href="/blog/about">关于</a></td>
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
                 
                 <td>
                     
@@ -184,9 +184,9 @@
                             &nbsp;
                             计算机
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/blog/2021/04/03/deploy-hexo/">deploy-hexo</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2021/04/03/deploy-hexo/">deploy-hexo</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/blog/2021/04/03/test/">test</a></li>  <li class="file"><a href="/blog/2021/04/03/hello-world/">Hello World</a></li>  <li class="file"><a href="/blog/2021/04/04/docker/">docker</a></li>  </ul> 
+                     <li class="file"><a href="/2021/04/03/test/">test</a></li>  <li class="file"><a href="/2021/04/03/hello-world/">Hello World</a></li>  <li class="file"><a href="/2021/04/04/docker/">docker</a></li>  </ul> 
     </div>
     <script>
         $(document).ready(function() {
@@ -267,14 +267,14 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a>
+        <a class="article-category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/blog/2021/04/03/deploy-hexo/">
+        <a href="/2021/04/03/deploy-hexo/">
             <time datetime="2021-04-03T05:39:02.000Z" itemprop="datePublished">2021-04-03</time>
         </a>
     </div>
@@ -324,7 +324,7 @@
 <p>图片调整大小：</p>
 <p>将_config文件中post_asset_folder: true </p>
 <p>_config文件中（注意空格）：</p>
-<p>url: <a href="https://sultimer.gitee.io/blog%EF%BC%9A%E6%98%AFgitee%E7%94%9F%E6%88%90%E7%9A%84%E5%9C%B0%E5%9D%80%EF%BC%8C%E6%AF%8F%E6%AC%A1%E4%B8%8A%E4%BC%A0%E4%BB%A5%E5%90%8E%E9%83%BD%E9%9C%80%E8%A6%81%E5%9C%A8git">https://sultimer.gitee.io/blog：是gitee生成的地址，每次上传以后都需要在git</a> pages中update；</p>
+<p>url: <a target="_blank" rel="noopener" href="https://sultimer.gitee.io/blog%EF%BC%9A%E6%98%AFgitee%E7%94%9F%E6%88%90%E7%9A%84%E5%9C%B0%E5%9D%80%EF%BC%8C%E6%AF%8F%E6%AC%A1%E4%B8%8A%E4%BC%A0%E4%BB%A5%E5%90%8E%E9%83%BD%E9%9C%80%E8%A6%81%E5%9C%A8git">https://sultimer.gitee.io/blog：是gitee生成的地址，每次上传以后都需要在git</a> pages中update；</p>
 <p>deploy:<br>  type: git</p>
 <p>  repo: <a target="_blank" rel="noopener" href="https://gitee.com/sultimer/blog.git">https://gitee.com/sultimer/blog.git</a><br>  branch: master</p>
 <p>gitee中项目名称不需要和用户名一致，但是github中要求二者必须一致，并且项目需要是公开的。</p>
@@ -352,7 +352,7 @@
     
 <nav id="article-nav">
     
-        <a href="/blog/2021/04/03/test/" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="/2021/04/03/test/" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
@@ -400,36 +400,36 @@
 
     
         
-<script src="/blog/libs/lightgallery/js/lightgallery.min.js"></script>
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-pager.min.js"></script>
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-autoplay.min.js"></script>
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-zoom.min.js"></script>
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-hash.min.js"></script>
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-share.min.js"></script>
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
 
         
-<script src="/blog/libs/lightgallery/js/lg-video.min.js"></script>
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
 
     
     
         
-<script src="/blog/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
 
     
     
@@ -459,7 +459,7 @@
 
 <!-- Custom Scripts -->
 
-<script src="/blog/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 
     </div>
